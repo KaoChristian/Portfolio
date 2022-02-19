@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  Color Palette
+    Jet : #2e2f2f
+    Ash Gray : #acbdba
+    Rich Black : #051014
+*/
+
+/* ------- HEADER  ------ */
+
+
+header{
+    background-color: #051014;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: #acbdba;
+}
+
+.icon{
+    text-align: center;
+    width: 25%;
+}
+
+#svg-home{
+    filter: invert(82%) sepia(9%) saturate(280%) hue-rotate(120deg) brightness(88%) contrast(95%);
+}
+
+h1{
+    text-align: center;
+}
+
+#nav-ul{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-li{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    height: 60px;
+}
+
+.nav-li:hover{
+    background-color: #2e2f2f;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+
+.nav-a{
+    text-align: center;
+    text-decoration: none;
+    color: #acbdba;
+}
+
+
+/* ------- Main ------- */
+
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #2e2f2f;
+    height: 1000px;
+}
+
+.main-page{
+    width: 80%;
+    height: 600px;
+    background-color:#051014;
+    display: flex;
+}
+
+.gauche{
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+}
+
+.droite{
+    width: 50%;
+    height: 300px;
+}
